@@ -22,7 +22,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: detjensrobert/qemu-jos:latest
+          tags: detjensrobert/qemu-jos:latest,detjensrobert/qemu-jos:6.828-2.3.0
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
